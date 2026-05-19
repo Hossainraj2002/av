@@ -9,17 +9,6 @@ export default function Hero() {
     <section id="home" className="relative min-h-screen flex items-center pt-24 pb-12 overflow-hidden">
       <div className="container mx-auto px-6 md:px-12 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Label */}
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-card border border-[#38BDF8]/30 mb-8"
-          >
-            <span className="w-2 h-2 rounded-full bg-[#38BDF8] animate-pulse"></span>
-            <span className="text-sm font-medium text-[#F8FAFC] tracking-wide">{HERO_CONTENT.label}</span>
-          </motion.div>
-
           {/* Heading */}
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
@@ -49,9 +38,9 @@ export default function Hero() {
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-20"
           >
             <a href="#contact" className="w-full sm:w-auto px-8 py-4 rounded-full btn-primary font-medium text-lg">
-              Book a Meeting
+              Connect
             </a>
-            <a href="#contact" className="w-full sm:w-auto px-8 py-4 rounded-full btn-secondary font-medium text-lg">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfUtt3laAWBiauF3EqnMJFuY2hj5w-_4uq5UTd6uAoIgfSyFQ/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-4 rounded-full btn-secondary font-medium text-lg">
               Submit Pitch Deck
             </a>
           </motion.div>

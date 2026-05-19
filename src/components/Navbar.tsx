@@ -26,11 +26,8 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
         {/* Logo Area */}
-        <a href="#home" className="flex items-center gap-2 group">
-          <div className="w-8 h-8 rounded bg-gradient-to-br from-[#38BDF8] to-[#2563EB] flex items-center justify-center shadow-[0_0_15px_rgba(37,99,235,0.4)] group-hover:shadow-[0_0_20px_rgba(56,189,248,0.6)] transition-all">
-            <span className="text-white font-bold text-xl font-heading leading-none tracking-tighter">A</span>
-          </div>
-          <span className="text-xl font-bold text-white font-heading tracking-tight">Advantage Venture</span>
+        <a href="#home" className="flex items-center group">
+          <img src="/logolong.jpg" alt="Advantage Venture" className="h-12 md:h-16 w-auto object-contain" />
         </a>
 
         {/* Desktop Nav */}
