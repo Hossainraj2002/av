@@ -24,14 +24,14 @@ export default function Navbar() {
         scrolled ? "glass-nav py-4" : "bg-transparent py-6"
       )}
     >
-      <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
+      <div className="relative container mx-auto px-6 md:px-12 flex justify-between items-center">
         {/* Logo Area */}
         <a href="#home" className="flex items-center group">
-          <img src="/logolong.jpg" alt="Advantage Venture" className="h-12 md:h-16 w-auto object-contain" />
+          <img src="/logolong.jpg" alt="Advantage Venture" className="h-10 md:h-12 w-auto object-contain" />
         </a>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center gap-8">
           {NAV_LINKS.map((link) => (
             <a 
               key={link.name} 
