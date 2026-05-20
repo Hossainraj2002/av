@@ -24,7 +24,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-sm sm:text-base md:text-xl text-[#38BDF8] mb-6 md:mb-12 max-w-2xl mx-auto leading-relaxed"
+            className="text-sm sm:text-base md:text-xl text-[#94A3B8] mb-6 md:mb-12 max-w-2xl mx-auto leading-relaxed"
           >
             {HERO_CONTENT.subheading}
           </motion.p>
