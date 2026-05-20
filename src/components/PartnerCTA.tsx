@@ -32,7 +32,7 @@ export default function PartnerCTA() {
               <div className="absolute inset-0 border-[2px] border-[#38BDF8]/20 rounded-full animate-[spin_10s_linear_infinite]"></div>
               <div className="absolute inset-4 border-[1px] border-[#2563EB]/40 rounded-full animate-[spin_15s_linear_infinite_reverse]"></div>
               <div className="absolute inset-12 bg-gradient-to-tr from-[#2563EB]/20 to-[#38BDF8]/20 rounded-full backdrop-blur-xl border border-[#38BDF8]/30 flex items-center justify-center">
-                <div className="w-16 h-16 rounded-full bg-[#05070A] shadow-[inset_0_0_20px_rgba(56,189,248,0.5)]"></div>
+                <img src="/logo.jpg" alt="Advantage Venture" className="w-16 h-16 rounded-full object-contain shadow-[0_0_20px_rgba(56,189,248,0.5)]" />
               </div>
             </div>
           </div>
