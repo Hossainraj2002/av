@@ -22,12 +22,12 @@ export default function Partners() {
           {PARTNERS.map((partner, idx) => (
             <div 
               key={idx} 
-              className="aspect-[4/1] w-full bg-[#05070A]/40 border border-white/5 rounded-xl shadow-[0_0_8px_rgba(255,255,255,0.02)] flex items-center justify-center p-3 hover:border-[#38BDF8]/30 hover:shadow-[0_0_12px_rgba(56,189,248,0.2)] transition-all duration-300 group"
+              className="aspect-[4/1] w-full moving-glow-border rounded-xl flex items-center justify-center overflow-hidden group shadow-[0_0_15px_rgba(56,189,248,0.05)]"
             >
               <img 
                 src={partner.logo} 
                 alt={`${partner.name} logo`} 
-                className="max-w-full max-h-full object-contain opacity-75 group-hover:opacity-100 group-hover:scale-[1.02] transition-all duration-300"
+                className="w-full h-full object-contain p-1 opacity-80 group-hover:opacity-100 group-hover:scale-[1.03] transition-all duration-300"
               />
             </div>
           ))}

@@ -27,8 +27,8 @@ export default function About() {
               <div className="absolute inset-0 bg-gradient-to-tr from-[#2563EB]/20 to-[#38BDF8]/20 rounded-3xl transform rotate-3 glass-card blur-[2px]"></div>
               <div className="absolute inset-0 bg-gradient-to-bl from-[#1E293B] to-[#0B0F14] rounded-3xl transform -rotate-3 border border-[#38BDF8]/30 glass-card flex items-center justify-center overflow-hidden">
                 <div className="absolute w-[150%] h-[150%] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#38BDF8]/10 via-transparent to-transparent animate-spin-slow"></div>
-                <div className="w-24 h-24 rounded-full border border-[#38BDF8]/50 flex items-center justify-center bg-[#05070A]/50 backdrop-blur-md shadow-[0_0_30px_rgba(56,189,248,0.2)]">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-tr from-[#2563EB] to-[#38BDF8] animate-pulse"></div>
+                <div className="w-32 h-32 border border-[#38BDF8]/30 flex items-center justify-center bg-[#05070A]/80 backdrop-blur-md shadow-[0_0_30px_rgba(56,189,248,0.15)] rounded-full p-4 z-10">
+                  <img src="/logo.jpg" alt="Advantage Venture Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
               </div>
             </div>

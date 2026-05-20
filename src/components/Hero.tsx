@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 export default function Hero() {
   return (
-    <section id="home" className="relative min-h-[90vh] md:min-h-screen flex items-center pt-20 pb-8 md:pt-24 md:pb-12 overflow-hidden">
+    <section id="home" className="relative min-h-0 md:min-h-screen flex items-center pt-28 pb-16 md:pt-24 md:pb-12 overflow-hidden">
       <div className="container mx-auto px-6 md:px-12 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Heading */}

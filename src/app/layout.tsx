@@ -17,17 +17,31 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "Advantage Venture | Crypto Venture Network",
   description: "Advantage Venture helps blockchain and Web3 startups with fundraising, CEX collaboration, KOL marketing, strategic partnerships, and early-stage investments.",
+  icons: {
+    icon: "/logo.jpg",
+    shortcut: "/logo.jpg",
+    apple: "/logo.jpg",
+  },
   openGraph: {
     title: "Advantage Venture | Crypto Venture Network",
     description: "Advantage Venture helps blockchain and Web3 startups with fundraising, CEX collaboration, KOL marketing, strategic partnerships, and early-stage investments.",
     type: "website",
     locale: "en_US",
     siteName: "Advantage Venture",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Advantage Venture | Crypto Venture Network",
+      }
+    ]
   },
   twitter: {
     card: "summary_large_image",
     title: "Advantage Venture | Crypto Venture Network",
     description: "Advantage Venture helps blockchain and Web3 startups with fundraising, CEX collaboration, KOL marketing, strategic partnerships, and early-stage investments.",
+    images: ["/og-image.png"],
   }
 };
 
@@ -38,6 +52,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Advantage Venture",
+              "url": "https://advantageventure.xyz",
+              "logo": "https://advantageventure.xyz/logo.jpg",
+              "sameAs": [
+                "https://x.com/AdvantageVentur",
+                "https://t.me/dealorhossain7"
+              ]
+            })
+          }}
+        />
+      </head>
       <body
         className={`${inter.variable} ${outfit.variable} antialiased bg-[#05070A] text-[#94A3B8] font-sans selection:bg-[#2563EB]/30 selection:text-white`}
       >
