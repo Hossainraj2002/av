@@ -5,34 +5,31 @@ import { SERVICES_CONTENT } from '@/lib/constants';
 
 export default function Services() {
   return (
-    <section id="services" className="py-24 relative">
+    <section id="services" className="py-24 relative z-10 border-t border-[#1E293B]/20">
       <div className="container mx-auto px-6 md:px-12 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold font-heading mb-4 text-white">
             {SERVICES_CONTENT.title}
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-[#2563EB] to-[#38BDF8] mx-auto rounded-full"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-[#8B5CF6] to-[#38BDF8] mx-auto rounded-full"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {SERVICES_CONTENT.services.map((service, idx) => {
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+          {SERVICES_CONTENT.services.map((service) => {
             const Icon = service.icon;
-            // Make the first two items span larger if needed, but a standard grid is cleaner.
-            // Using a bento-box style for a premium feel.
-            const isWide = idx === 0 || idx === 3;
             
             return (
               <div 
                 key={service.id} 
-                className={`glass-card p-8 rounded-3xl group hover:-translate-y-2 transition-all duration-300 ${isWide ? 'lg:col-span-2' : ''}`}
+                className="bg-[#0B0F14]/40 border border-white/5 p-8 rounded-2xl flex flex-col group hover:-translate-y-1 hover:border-[#8B5CF6]/30 hover:shadow-[0_0_15px_rgba(139,92,246,0.1)] transition-all duration-300"
               >
-                <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#1E293B] to-[#0B0F14] border border-[#38BDF8]/20 flex items-center justify-center mb-6 group-hover:border-[#38BDF8]/50 group-hover:shadow-[0_0_20px_rgba(56,189,248,0.2)] transition-all">
-                  <Icon className="w-7 h-7 text-[#38BDF8]" />
+                <div className="w-12 h-12 rounded-full bg-[#1E1B4B]/80 border border-[#8B5CF6]/30 flex items-center justify-center mb-6 text-[#A78BFA] group-hover:bg-[#2E1065] group-hover:text-white transition-all">
+                  <Icon className="w-5 h-5" />
                 </div>
-                <h3 className="text-2xl font-bold font-heading text-[#F8FAFC] mb-4">
+                <h3 className="text-xl font-bold font-heading text-[#F8FAFC] mb-3">
                   {service.title}
                 </h3>
-                <p className="text-[#94A3B8] leading-relaxed">
+                <p className="text-sm text-[#94A3B8] leading-relaxed">
                   {service.description}
                 </p>
               </div>
