@@ -16,8 +16,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-3xl sm:text-5xl md:text-7xl font-bold font-heading leading-tight md:leading-[1.1] mb-4 md:mb-8 text-white tracking-tight"
           >
-            {HERO_CONTENT.heading.split('Exchange Access')[0]}
-            <span className="text-gradient-blue">Exchange Access</span>
+            {HERO_CONTENT.heading}
           </motion.h1>
 
           {/* Subheading */}
@@ -25,7 +24,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-sm sm:text-base md:text-xl text-[#94A3B8] mb-6 md:mb-12 max-w-2xl mx-auto leading-relaxed"
+            className="text-sm sm:text-base md:text-xl text-[#38BDF8] mb-6 md:mb-12 max-w-2xl mx-auto leading-relaxed"
           >
             {HERO_CONTENT.subheading}
           </motion.p>
@@ -37,10 +36,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4 mb-4 md:mb-20"
           >
-            <a href="#contact" className="w-full sm:w-auto px-6 py-3 md:px-8 md:py-4 rounded-full btn-primary font-medium text-base md:text-lg text-center">
-              Contact
-            </a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfUtt3laAWBiauF3EqnMJFuY2hj5w-_4uq5UTd6uAoIgfSyFQ/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-6 py-3 md:px-8 md:py-4 rounded-full btn-secondary font-medium text-base md:text-lg text-center">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfUtt3laAWBiauF3EqnMJFuY2hj5w-_4uq5UTd6uAoIgfSyFQ/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-6 py-3 md:px-8 md:py-4 rounded-full btn-primary font-medium text-base md:text-lg text-center">
               Submit Pitch Deck
             </a>
           </motion.div>

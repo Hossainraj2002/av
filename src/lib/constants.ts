@@ -20,9 +20,9 @@ export const HERO_CONTENT = {
 export const ABOUT_CONTENT = {
   title: "About Advantage Venture",
   paragraphs: [
-    "Advantage Venture is a crypto-focused venture network supporting early-stage blockchain and Web3 projects.",
-    "We help promising startups grow through strategic fundraising support, exchange collaboration guidance, marketing partnerships, community expansion, and seed investments.",
-    "Our mission is to connect innovative founders with investors, communities, and growth opportunities."
+    "Advantage Venture is a crypto-focused venture network dedicated to supporting the next generation of blockchain, Web3, and decentralized technology projects. We work closely with early-stage startups, emerging protocols, and innovative founders to help transform ambitious ideas into scalable and sustainable ecosystems.",
+    "Our core focus is on empowering high-potential projects through strategic fundraising support, investor networking, exchange collaboration guidance, growth marketing, community expansion, partnership development, and selective seed-stage investments. We believe that strong infrastructure, strategic exposure, and the right network are essential for long-term success in the rapidly evolving digital asset industry.",
+    "At Advantage Venture, we actively collaborate with founders, builders, angel investors, market makers, ecosystem partners, KOLs, and communities across the global crypto space. Through our network-driven approach, we help projects gain visibility, build credibility, and accelerate adoption from the earliest stages of development."
   ]
 };
 
@@ -48,14 +48,8 @@ export const SERVICES_CONTENT = {
       icon: HelpCircle
     },
     {
-      id: "growth",
-      title: "Growth",
-      description: "We provide strategic planning, marketing, and operational support to accelerate your company's growth trajectory.",
-      icon: TrendingUp
-    },
-    {
       id: "marketing",
-      title: "KOL & Marketing",
+      title: "Growth & Marketing",
       description: "Our experts help you manage your campaign with the most appropriate strategies by choosing the right KOLs you need. Access to crypto influencers, community campaigns, Twitter/X promotion, Telegram growth, and ambassador campaigns.",
       icon: Megaphone
     },
@@ -70,12 +64,6 @@ export const SERVICES_CONTENT = {
       title: "CEX Collaboration Support",
       description: "Guidance and strategic support for centralized exchange listings, including market preparation and partnership coordination.",
       icon: Globe
-    },
-    {
-      id: "partnerships",
-      title: "Strategic Partnerships",
-      description: "We connect projects with ecosystem partners, launchpads, media partners, and growth networks.",
-      icon: Network
     }
   ]
 };
@@ -117,7 +105,7 @@ export const CONTACT_CONTENT = {
   title: "Contact",
   email: "contact@advantageventure.com",
   twitter: "@AdvantageVentur",
-  telegram: "@dealorhossain7"
+  telegram: "@advantageventur"
 };
 
 export const NAV_LINKS = [
@@ -125,6 +113,5 @@ export const NAV_LINKS = [
   { name: "About", href: "#about" },
   { name: "Services", href: "#services" },
   { name: "Partners", href: "#partners" },
-  { name: "Portfolio", href: "#portfolio" },
-  { name: "Contact", href: "#contact" }
+  { name: "Portfolio", href: "#portfolio" }
 ];

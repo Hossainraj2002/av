@@ -64,7 +64,7 @@ export default function RootLayout({
               "logo": "https://advantageventure.xyz/logo.jpg",
               "sameAs": [
                 "https://x.com/AdvantageVentur",
-                "https://t.me/dealorhossain7"
+                "https://t.me/advantageventur"
               ]
             })
           }}

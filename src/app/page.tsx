@@ -6,7 +6,6 @@ import Services from "@/components/Services";
 import Partners from "@/components/Partners";
 import Portfolio from "@/components/Portfolio";
 import PartnerCTA from "@/components/PartnerCTA";
-import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -21,7 +20,6 @@ export default function Home() {
         <Partners />
         <Portfolio />
         <PartnerCTA />
-        <Contact />
       </div>
       <Footer />
     </main>

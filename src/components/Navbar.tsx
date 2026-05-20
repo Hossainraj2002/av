@@ -60,7 +60,7 @@ export default function Navbar() {
 
           {/* Telegram */}
           <a 
-            href="https://t.me/dealorhossain7" 
+            href="https://t.me/advantageventur" 
             target="_blank" 
             rel="noopener noreferrer"
             className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-[#94A3B8] hover:text-white hover:bg-white/10 hover:border-white/20 transition-all duration-300"
@@ -124,7 +124,7 @@ export default function Navbar() {
             </a>
 
             <a 
-              href="https://t.me/dealorhossain7" 
+              href="https://t.me/advantageventur" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-[#94A3B8] hover:text-white transition-all"

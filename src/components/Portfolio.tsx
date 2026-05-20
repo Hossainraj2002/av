@@ -11,7 +11,7 @@ export default function Portfolio() {
       
       <div className="container mx-auto px-6 md:px-12 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold font-heading mb-4 text-white">
+          <h2 className="text-4xl md:text-5xl font-bold font-heading mb-4 text-[#38BDF8]">
             Portfolio
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-[#2563EB] to-[#38BDF8] mx-auto rounded-full"></div>
