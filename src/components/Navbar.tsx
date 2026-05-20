@@ -36,7 +36,7 @@ export default function Navbar() {
             <a 
               key={link.name} 
               href={link.href}
-              className="text-sm font-medium text-[#94A3B8] hover:text-[#38BDF8] transition-colors"
+              className="text-sm font-medium text-[#38BDF8] hover:text-white transition-colors"
             >
               {link.name}
             </a>
@@ -103,7 +103,7 @@ export default function Navbar() {
               key={link.name} 
               href={link.href}
               onClick={() => setIsOpen(false)}
-              className="text-base font-medium text-[#F8FAFC] hover:text-[#38BDF8] py-2 border-b border-[#1E293B]/30"
+              className="text-base font-medium text-[#38BDF8] hover:text-white py-2 border-b border-[#1E293B]/30"
             >
               {link.name}
             </a>
