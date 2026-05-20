@@ -38,7 +38,7 @@ export default function Hero() {
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-20"
           >
             <a href="#contact" className="w-full sm:w-auto px-8 py-4 rounded-full btn-primary font-medium text-lg">
-              Connect
+              Contact
             </a>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfUtt3laAWBiauF3EqnMJFuY2hj5w-_4uq5UTd6uAoIgfSyFQ/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-4 rounded-full btn-secondary font-medium text-lg">
               Submit Pitch Deck

@@ -21,7 +21,7 @@ export default function PartnerCTA() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#contact" className="px-8 py-4 rounded-full btn-primary font-medium text-lg text-center">
-                Connect
+                Contact
               </a>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSfUtt3laAWBiauF3EqnMJFuY2hj5w-_4uq5UTd6uAoIgfSyFQ/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" className="px-8 py-4 rounded-full btn-secondary font-medium text-lg text-center bg-[#0B0F14]/50 backdrop-blur-sm">
                 Submit Pitch Deck

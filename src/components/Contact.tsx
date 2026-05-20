@@ -35,15 +35,12 @@ export default function Contact() {
       }
 
       setIsSuccess(true);
+      setTimeout(() => setIsSuccess(false), 5000);
       (e.target as HTMLFormElement).reset();
     } catch (err: any) {
       setError(err.message || 'Something went wrong. Please try again.');
     } finally {
       setIsSubmitting(false);
-      
-      if (isSuccess) {
-        setTimeout(() => setIsSuccess(false), 5000);
-      }
     }
   };
 
