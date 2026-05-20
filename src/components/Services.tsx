@@ -8,7 +8,7 @@ export default function Services() {
     <section id="services" className="py-24 relative z-10 border-t border-[#1E293B]/20">
       <div className="container mx-auto px-6 md:px-12 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold font-heading mb-4 text-[#38BDF8]">
+          <h2 className="text-4xl md:text-5xl font-bold font-heading mb-4 !text-[#38BDF8]">
             {SERVICES_CONTENT.title}
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-[#8B5CF6] to-[#38BDF8] mx-auto rounded-full"></div>
