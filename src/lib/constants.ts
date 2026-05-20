@@ -86,7 +86,8 @@ export const PARTNER_CTA_CONTENT = {
 export const CONTACT_CONTENT = {
   title: "Contact",
   email: "contact@advantageventure.com",
-  twitter: "@AdvantageVenture"
+  twitter: "@AdvantageVentur",
+  telegram: "@dealorhossain7"
 };
 
 export const NAV_LINKS = [
