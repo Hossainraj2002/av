@@ -147,6 +147,7 @@ export default function Navbar() {
               </svg>
             </a>
           </div>
+        </div>
       )}
     </nav>
   );
